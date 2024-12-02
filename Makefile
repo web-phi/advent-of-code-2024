@@ -21,5 +21,5 @@ run:
 
 .PHONY: clean
 clean:
-	@rm -f $(wildcard day*)/$(TARGET)
+	@rm -f day*/$(TARGET)
 	@echo "Removed executables."
