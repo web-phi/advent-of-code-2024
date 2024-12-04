@@ -3,7 +3,7 @@
 #include <sstream>
 #include <vector>
 
-bool isSafe(std::vector<int> levels)
+bool isSafe(std::vector<int> &levels)
 {
     if (levels.size() < 2)
         return true;
@@ -27,7 +27,7 @@ bool isSafe(std::vector<int> levels)
     return false;
 }
 
-bool isWeaklySafe(std::vector<int> levels)
+bool isWeaklySafe(std::vector<int> &levels)
 {
     if (isSafe(levels))
         return true;
