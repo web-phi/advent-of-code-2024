@@ -68,7 +68,6 @@ int main()
     std::vector<char> key_vector(keyword.begin(), keyword.end());
 
     std::cout << "Number of XMAS occurences: " << countOccurences(grid, key_vector) << std::endl;
-
     std::cout << "Number of X-MAS occurences: " << countXShapes(grid, 'M', 'A', 'S') << std::endl;
 
     return 0;
